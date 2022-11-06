@@ -1,0 +1,44 @@
+.container{
+    max-width: 300px;
+    margin: 10vh auto 0 auto;
+    background-color: rgb(246, 246, 246);
+    border: 1px solid purple;
+}
+#display{
+    text-align: right;
+    padding: 30px 0;
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.buttons{
+    display: grid;
+    border: 1px solid #DDD;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2px;
+    text-align: center;
+    height: 300px;
+    padding: 3px;
+}
+.button{
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    line-height: 30px;
+    background-color: white;
+    width: 50px;
+    height: 30px;
+    
+
+}
+#calc-button{
+    background-color: blue;
+}
+.button:hover{
+    background-color: black;
+    color:white;
+    transition: 0.3s ease-in-out ;
+}
